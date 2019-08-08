@@ -1,11 +1,24 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <title>NEW JERSEY</title>
-</head>
+    <head>
+        <title>NEW JERSEY</title>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="app.js"></script>
+    </head>
 
-<body>
-  <div></div>
-</body>
+    <body>
+        <div id="app">
+        {{ message }}
+        </div>
+    </body>
+
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+               message: 'Hello Vue Jersey!'
+            }
+        })
+    </script>
 
 </html>

@@ -34,14 +34,19 @@ Node.js agent-based instrumentation https://docs.newrelic.com/docs/agents/nodejs
 - filter by HandledErrors specifically, method `.noticeError`, see `/img/filter-by-handled-errors.png` and https://docs.newrelic.com/docs/browser/new-relic-browser/browser-agent-spa-api/notice-error . Update - realize we have this already as `handled: yes` and `handled: no`, **if you know to filter by it in Issues Dashboard**
 - ["SPA Monitoring"](https://docs.newrelic.com/docs/browser/single-page-app-monitoring/get-started/install-single-page-app-monitoring-new-relic-browser) feature, branded as such 
 
-## Has
-- [sourcemaps uploading](https://docs.newrelic.com/docs/browser/new-relic-browser/browser-pro-features/upload-source-maps-un-minify-js-errors)
+
+## JS Errors
+These are the pop-ups they give you when you Activate Pro Trial (which gives access to full JS Errors)
+![Image Onboarding 1](./img/js-error-onboarding-1.png)
+![Image Onboarding 2](./img/js-error-onboarding-2.png)
+![Image Onboarding 3](./img/js-error-onboarding-3.png)
+![Image Onboarding 4](./img/js-error-onboarding-4.png)
 
 ## Other
 https://vuejs.org/v2/guide/
 - Definition of a NewRelic [Event](https://docs.newrelic.com/docs/using-new-relic/welcome-new-relic/get-started/glossary#event)
 - Definition of a NewRelic [Attribute](https://docs.newrelic.com/docs/using-new-relic/welcome-new-relic/get-started/glossary#attribute) which is like a Tag
-
+- has [sourcemaps uploading](https://docs.newrelic.com/docs/browser/new-relic-browser/browser-pro-features/upload-source-maps-un-minify-js-errors)
 
 ## Ding Ding Ding
 https://docs.newrelic.com/docs/browser/new-relic-browser/browser-pro-features/javascript-errors-page-detect-analyze-errors#ui-features
@@ -59,4 +64,4 @@ Error collection is done by wrapping JavaScript functions, so errors thrown by t
 ```
 
 ## Break New Jersey
-for...loop
+for...loop that throws errors, see how NewJersey handles it.

@@ -35,8 +35,13 @@ x.keyDoesntExist()
 ```
 ?
  
+Does ours have these problems?  
 "Its not picking up my errors and sending to NewRelic"  
 https://discuss.newrelic.com/t/browser-agent-not-logging-js-errors/55998/6  
+
+Does ours have these problems?
+"Tips for properly installing newrelic browser in your index.html"  
+https://docs.newrelic.com/docs/browser/new-relic-browser/page-load-timing-resources/instrumentation-browser-monitoring#javascript-placement 
 
 ## Example of "reported" error by the newjersey sdk
 ```
@@ -56,9 +61,3 @@ These are the pop-ups they give you when you Activate Pro Trial (which gives acc
 - Definition of a Newjersey [Event](https://docs.newrelic.com/docs/using-new-relic/welcome-new-relic/get-started/glossary#event)
 - Definition of a Newjersey [Attribute](https://docs.newrelic.com/docs/using-new-relic/welcome-new-relic/get-started/glossary#attribute) which is like a Tag
 - has [sourcemaps uploading](https://docs.newrelic.com/docs/browser/new-relic-browser/browser-pro-features/upload-source-maps-un-minify-js-errors)
-
-## Troubleshooting
-
-
-"Tips for properly installing newrelic browser in your index.html"  
-https://docs.newrelic.com/docs/browser/new-relic-browser/page-load-timing-resources/instrumentation-browser-monitoring#javascript-placement  

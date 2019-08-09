@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <script type="text/javascript" src="newjersey.js"></script>
         <title>NEW JERSEY</title>
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-        <script type="text/javascript" src="newjersey.js"></script>
     </head>
 
     <body>
@@ -30,8 +30,12 @@
         }
 
         var makeHandledError = function() {
-            console.log("handled error")
-            throw new Error("I'm a thrown error")
+            // console.log("handled error for newrelic object:", newrelic)
+            
+            // throw new Error("I'm a thrown error")
+
+            var err = new Error('Report caught error to New Relic');
+            newrelic.noticeError(err);
         }
 
         var app = new Vue({
